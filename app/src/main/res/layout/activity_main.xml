@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tongtong.tiny.loopviewpagergallary.MainActivity">
+
+    <!-- 这里的ViewPager最好包一层父布局，并给它设置android:clipChildren="false"属性-->
+    <FrameLayout
+        android:id="@+id/fl_vp_parent"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:background="#aadc71ff"
+        android:clipChildren="false"
+        >
+
+        <!-- 宽度不要占满屏幕
+        设置android:clipChildren="false"属性 -->
+        <com.tongtong.tiny.loopviewpagergallary.LoopViewPager
+            android:id="@+id/id_viewpager"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            >
+        </com.tongtong.tiny.loopviewpagergallary.LoopViewPager>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
