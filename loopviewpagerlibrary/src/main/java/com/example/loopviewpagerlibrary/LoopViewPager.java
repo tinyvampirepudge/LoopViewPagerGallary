@@ -1,4 +1,4 @@
-package com.tongtong.tiny.loopviewpagergallary;
+package com.example.loopviewpagerlibrary;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

@@ -10,6 +10,10 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import com.example.loopviewpagerlibrary.LoopViewPager;
+import com.example.loopviewpagerlibrary.PageTransformerAdapter;
+import com.example.loopviewpagerlibrary.ScaleDownPageTransformer;
+
 import java.util.ArrayList;
 import java.util.List;
 
