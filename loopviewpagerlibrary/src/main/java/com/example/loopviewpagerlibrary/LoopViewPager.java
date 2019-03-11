@@ -85,6 +85,7 @@ public class LoopViewPager extends ViewPager {
             //当手指抬起或者划出页面时
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_OUTSIDE:
+            case MotionEvent.ACTION_CANCEL:
                 if (canRun)
                     start();
                 break;
